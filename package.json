@@ -24,7 +24,7 @@
   "dependencies": {
     "@daranix/pdf-to-image-test": "^1.0.6",
     "pixelmatch": "^7.1.0",
-    "pngjs": "^7.0.0"
+    "pngjs": "^6.0.0"
   },
   "devDependencies": {
     "@types/node": "^24.3.1",
