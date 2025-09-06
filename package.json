@@ -1,0 +1,38 @@
+{
+  "name": "@mizunie/compare-pdf",
+  "version": "1.0.0",
+  "description": "A library for comparing PDF files and generating visual diffs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "jest"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "pdf",
+    "comparison",
+    "diff",
+    "visual",
+    "image"
+  ],
+  "author": "Jhoan Velasquez",
+  "license": "MIT",
+  "dependencies": {
+    "@daranix/pdf-to-image-test": "^1.0.6",
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "@types/pixelmatch": "^5.2.6",
+    "@types/pngjs": "^6.0.5",
+    "typescript": "^5.9.2"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
