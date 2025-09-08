@@ -1,6 +1,6 @@
 {
   "name": "mizunie-compare-pdf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A library for comparing PDF files and generating visual diffs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
